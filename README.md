@@ -6,7 +6,7 @@ A javascript library for querying the Valpak.com SOLR index.
 
 ##Installation
 ```
-npm install valpak-solr-node
+$ npm install valpak-solr-node
 ```
 
 ##Usage

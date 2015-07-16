@@ -2,9 +2,11 @@
   "name": "valpak-solr-node",
   "version": "1.0.0",
   "description": "A node module for querying data from the Valpak SOLR index.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "NODE_ENV=test `npm bin`/mocha --require ./test/mocha-babel --recursive --watch"
+    "test": "NODE_ENV=test `npm bin`/mocha --require ./test/mocha-babel --recursive --watch",
+    "build": "rm -rf lib && `npm bin`/babel --stage 0 src --out-dir lib",
+    "prepublish": "npm run build"
   },
   "author": "Darek Rossman <darekrossman@me.com> (https://github.com/subpopular)",
   "license": "ISC",
