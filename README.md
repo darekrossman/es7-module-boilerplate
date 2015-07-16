@@ -5,10 +5,12 @@ A javascript library for querying the Valpak.com SOLR index.
 
 ----------
 
-##Installation
-`npm install valpak-solr-node`
+###Installation
+```
+npm install valpak-solr-node
+```
 
-##Usage
+###Usage
 ```javascript
 var VPSolr = require('valpak-solr-node');
 var host = 'http://vpcom1.valpak.com:8090';
