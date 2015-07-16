@@ -1,6 +1,6 @@
 {
   "name": "valpak-solr-node",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A node module for querying data from the Valpak SOLR index.",
   "main": "lib/index.js",
   "scripts": {

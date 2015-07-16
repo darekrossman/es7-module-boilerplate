@@ -12,7 +12,7 @@ $ npm install valpak-solr-node
 ##Usage
 ```javascript
 var VPSolr = require('valpak-solr-node');
-var host = 'http://vpcom1.valpak.com:8090';
+var host = 'solr host';
 
 VPSolr.getLocalOffers({
   query: {superCat: 101},
@@ -31,5 +31,5 @@ VPSolr.getSyndicatedOffers({
 
 ##Options
 Both **getLocalOffers()** and **getSyndicatedOffers** support the following options:
-- **solrHost**: The hostname where SOLR is served (eg: http://vpcom1.valpak.com:8090). Required.
+- **solrHost**: The hostname where SOLR is served. Required.
 - **query**: An object containing a single key/value pair of the field and value you wish to query. Optional - defaults to {*:*}
