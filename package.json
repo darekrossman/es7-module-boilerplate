@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "URIjs": "^1.15.2",
+    "babel-runtime": "^5.7.0",
     "isomorphic-fetch": "^2.1.1"
   }
 }
