@@ -1,10 +1,11 @@
 {
-  "name": "valpak-solr-node",
-  "version": "1.0.5",
-  "description": "A node module for querying data from the Valpak SOLR index.",
+  "name": "es7-module-boilerplate",
+  "version": "1.0.0",
+  "description": "An ES2015/ES7 module boilerplate.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "NODE_ENV=test `npm bin`/mocha --require ./test/mocha-babel --recursive --watch",
+    "test": "NODE_ENV=test `npm bin`/mocha --require ./test/mocha-babel --recursive",
+    "test:watch": "NODE_ENV=test `npm bin`/mocha --require ./test/mocha-babel --recursive --watch",
     "build": "rm -rf lib && `npm bin`/babel --stage 0 --optional runtime src --out-dir lib",
     "prepublish": "npm run build"
   },
@@ -16,8 +17,6 @@
     "babel": "^5.6.23"
   },
   "dependencies": {
-    "URIjs": "^1.15.2",
-    "babel-runtime": "^5.7.0",
-    "isomorphic-fetch": "^2.1.1"
+    "babel-runtime": "^5.7.0"
   }
 }

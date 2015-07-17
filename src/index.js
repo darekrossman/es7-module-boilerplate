@@ -1,3 +1,3 @@
-import * as ValpakSolrNode from './valpak-solr-node.js';
+import * as myModule from './my-module.js';
 
-export default ValpakSolrNode
+export default myModule
