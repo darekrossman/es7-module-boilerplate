@@ -2,6 +2,10 @@
   "name": "es7-module-boilerplate",
   "version": "1.0.0",
   "description": "An ES2015/ES7 module boilerplate.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subpopular/es7-module-boilerplate"
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "NODE_ENV=test `npm bin`/mocha --require ./test/mocha-babel --recursive",
@@ -18,5 +22,12 @@
   },
   "dependencies": {
     "babel-runtime": "^5.7.0"
-  }
+  },
+  "keywords": [
+    "node",
+    "babel",
+    "ES2015",
+    "ES7",
+    "boilerplate"
+  ]
 }
